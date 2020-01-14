@@ -21,7 +21,6 @@ const App = () => {
         <Router>
           <div className='App'>
             <Navbar />
-
             <div className='container'>
               <Alert />
               <Switch>
@@ -37,5 +36,4 @@ const App = () => {
     </GithubState>
   );
 };
-
 export default App;
